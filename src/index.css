@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  background-color: #f2f2f2;
+}
+
+*:focus {
+  outline: none;
+}
+
+button{
+  font-family: inherit;
+  font-size: 17px;
+}
+
+.loginForm,
+.solicitudForm{
+    width: 390px;
+    height: auto;
+    margin: 0px auto;
+    background-color: #fff;
+    padding: 77px 55px 33px 55px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 90px;
+}
+
+.loginForm label{
+  display: none;
+}
+
+.loginForm input[type="email"]{
+  font-family: inherit;
+  font-size: 17px;
+  color: #555555;
+  line-height: 1.2;
+  display: block;
+  width: 100%;
+  height: 45px;
+  background: transparent;
+  padding: 0 5px;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom:1px solid #ccc; 
+  margin-bottom: 12px;
+  margin-top: 30px;
+}
+
+.loginForm input[type="password"]{
+  font-family: inherit;
+  font-size: 17px;
+  color: #555555;
+  line-height: 1.2;
+  display: block;
+  width: 100%;
+  height: 45px;
+  background: transparent;
+  padding: 0 5px;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom:1px solid #ccc; 
+}
+
+.contentButton{
+  text-align: center;
+}
+
+.loginForm button{
+  background-color: #ffdb99;
+  border: 0px;
+  width: 72%;
+  margin: 50px auto;
+  padding: 11px;
+  border-radius: 9px;
+  text-transform: uppercase;
+  color: #555555;
+  cursor: pointer;
+}
+
+.loginForm button:hover{
+  -webkit-box-shadow: 3px 5px 15px 0px rgba(50, 50, 50, 0.47);
+  -moz-box-shadow: 3px 5px 15px 0px rgba(50, 50, 50, 0.47);
+  box-shadow:3px 5px 15px 0px rgba(50, 50, 50, 0.47);
+}
+
+.error{
+  width: 100%;
+  color:#f00;
+  float: left;
+  margin-bottom: 19px;
+}
+
+.contentInput{
+  margin-bottom: 36px;
+}
+
+/**/
+
+.registerForm{
+  width: 390px;
+  height: auto;
+  margin: 0px auto;
+  background-color: #fff;
+  padding: 77px 55px 33px 55px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.registerForm, .solicitudForm label{
+  display: none;
+}
+
+.registerForm input[type="email"], input[type="text"]{
+  font-family: inherit;
+  font-size: 17px;
+  color: #555555;
+  line-height: 1.2;
+  display: block;
+  width: 100%;
+  height: 45px;
+  background: transparent;
+  padding: 0 5px;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom:1px solid #ccc; 
+  margin-bottom: 12px;
+}
+
+.registerForm input[type="password"]{
+  font-family: inherit;
+  font-size: 17px;
+  color: #555555;
+  line-height: 1.2;
+  display: block;
+  width: 100%;
+  height: 45px;
+  background: transparent;
+  padding: 0 5px;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom:1px solid #ccc; 
+  margin-bottom: 16px;
+}
+
+
+.registerForm button{
+  background-color: #ffdb99;
+  border: 0px;
+  width: 42%;
+  margin: 50px auto;
+  padding: 11px;
+  border-radius: 9px;
+  text-transform: uppercase;
+  color: #555555;
+  cursor: pointer;
+  margin-right: 24px;
+}
+
+.registerForm button:hover{
+  -webkit-box-shadow: 3px 5px 15px 0px rgba(50, 50, 50, 0.47);
+  -moz-box-shadow: 3px 5px 15px 0px rgba(50, 50, 50, 0.47);
+  box-shadow:3px 5px 15px 0px rgba(50, 50, 50, 0.47);
+}
+
+.registerBtn{
+  text-align: center;
+}
+
+.linkNewUser a{
+  color: #333;
+  margin-left: 12px;
+}
+
+/**/
+
+.solicitudForm textarea{
+  width: 100%;
+  height: 121px;
+  font-family: inherit;
+  font-size: 15px;
+  padding: 12px 5px 5px 5px;
+  color: #333;
+  margin-bottom: 22px;
+}
+
